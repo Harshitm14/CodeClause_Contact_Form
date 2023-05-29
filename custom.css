@@ -1,0 +1,98 @@
+
+
+body {
+    background-image: url(ima.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Aleo';  }
+  
+  h1 {
+    font-family: 'Aleo';
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .help-block.with-errors {
+    color: red;
+  }
+  
+  /* Container Styles */
+  
+  .container {
+    font-family: 'Aleo';
+    margin-top: 50px;
+    padding: 30px;
+    background-image: linear-gradient(to left, #0099f7, #f11712);
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(4, 4, 4, 4);
+  }
+  
+  /* Form Styles */
+  
+  .form-group label {
+    font-family: 'Aleo';
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ECF2FF;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+  /* Button Styles */
+  
+  .btn-send {
+    font-family: 'Aleo';
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-send:hover {
+    background-color: #45a049;
+  }
+  
+  /* Messages Styles */
+  
+  .messages {
+    margin-top: 20px;
+  }
+  
+  .messages .alert {
+    border-radius: 3px;
+  }
+  
+  .messages .alert-success {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+  }
+  
+  .messages .alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+  }
+  
+  
